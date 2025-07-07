@@ -2,7 +2,10 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>01-1.배경연습</title>
     <style>
       /* CSS 인터널 코딩구역 */
@@ -36,7 +39,8 @@
         -> x축값: left/right/center(기본값)/수치값 
         -> y축값: top/bottom/center(기본값)/수치값 
         */
-        background-position: right bottom;
+        background-position: right
+          bottom;
 
         /* 6. 배경 크기 bgz
         -> background-size: 값;
@@ -67,14 +71,23 @@
           -> 배경크기를 %로쓰면 현재 박스 크기의 비율이다!
         */
         background: 
-          /* 공유 */ url(./imgs/dc1.png) no-repeat left
-            top/400px,
-          /* 김고은 */ url(./imgs/dc2.png) no-repeat right 10%/300px,
-          /* 이동욱 */ url(./imgs/dc3.png) no-repeat 20% 15%/350px,
-          /* 유인나 */ url(./imgs/dc4.png) no-repeat fixed left bottom/200px,
-          /* 메인포스터 */ url(./imgs/bg_mainvisual.jpg) no-repeat fixed
-            center/50%,
-          /* 배경추가 -> 위치값 50%는 center와 같다! */ url(./imgs/eachBG.jpg)
+          /* 공유 */ url(./imgs/dc1.png)
+            no-repeat left top/400px,
+          /* 김고은 */
+            url(./imgs/dc2.png)
+            no-repeat right 10%/300px,
+          /* 이동욱 */
+            url(./imgs/dc3.png)
+            no-repeat 20% 15%/350px,
+          /* 유인나 */
+            url(./imgs/dc4.png)
+            no-repeat fixed left
+            bottom/200px,
+          /* 메인포스터 */
+            url(./imgs/bg_mainvisual.jpg)
+            no-repeat fixed center/50%,
+          /* 배경추가 -> 위치값 50%는 center와 같다! */
+            url(./imgs/eachBG.jpg)
             no-repeat 50% top/40% 100%;
       }
     </style>

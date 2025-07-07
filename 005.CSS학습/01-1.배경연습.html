@@ -7,9 +7,40 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>01-1.배경연습</title>
-    <style></style>
+    <style>
+      /* CSS 인터널 코딩구역 */
+      h1{
+        /* 글자중앙정렬 tac */
+        text-align: center;
+      }
+      /* body 배경셋팅하기 */
+      body{
+        /* 1. 배경색 bgc 
+        -> background-color:색; */
+        background-color: #ffcb46;
+
+        /* 2. 배경이미지 bgi 
+        -> background-image: url(이미지경로);
+        -> 기본적으로 배경이미지는 반복됨! */
+        background-image: url(./imgs/bg_logo_a_01.png);
+
+        /* 3. 배경 반복여부 bgr
+        -> background-repeat: 옵션; 
+        -> 값: no-repeat/repeat-x/repeat-y/repeat(기본값)*/
+        background-repeat: no-repeat;
+
+        /* 4. 화면고정 bga
+        -> background-attachment: fixed; 
+        -> 스크롤시 배경이 보이는 화면에 고정됨! */
+        background-attachment: fixed;
+
+        /* 화면고정 테스트를 위해 높이값 주기 */
+        height: 3000px;
+      }
+    </style>
   </head>
   <body>
+
     <div class="wrap">
       <h1>01-1.배경넣기 연습</h1>
     </div>

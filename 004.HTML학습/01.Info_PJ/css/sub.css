@@ -88,7 +88,18 @@
   font-size: 33px;
 }
 /* 2-4. 기사사진  */
-.article-picture {
+.article-picture img {
+    width: 100%;
+}
+/* 이미지설명 */
+.article-picture figcaption{
+    /* 박스설정 */
+    margin-bottom: 20px;
+    text-align: center;
+
+    /* 글자설정 */
+    font-size: 15px;
+    color: #555;
 }
 /* 2-5. 기사내용 */
 /* 2-6. 기자정보 */

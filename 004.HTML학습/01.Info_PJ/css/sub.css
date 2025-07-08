@@ -102,5 +102,15 @@
     color: #555;
 }
 /* 2-5. 기사내용 */
+.contents p{
+    /* 글자설정 */
+    font-size: 18px;
+    /* 줄간격 lh - 숫자값은 배수임! */
+    line-height: 1.7;
+}
 /* 2-6. 기자정보 */
+.reporter{
+    font-size: 16px;
+    color: #333;
+}
 /* 2-7. 기사원문 */

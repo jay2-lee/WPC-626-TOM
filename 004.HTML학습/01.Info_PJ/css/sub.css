@@ -17,8 +17,14 @@
     border: 2px solid darkblue;
     /* 둥근모서리 bdrs20 */
     border-radius: 20px;
+
+    /* 배경공통 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     /* 배경넣기 bg -> 색이반고윙/크 */
-    background: url(../images/titbg4.jpg) no-repeat 0/cover;
+    /* background: url(../images/titbg4.jpg) no-repeat 0/cover; */
 
     /* (2)글자디자인 */
     /* 글자체 ff */

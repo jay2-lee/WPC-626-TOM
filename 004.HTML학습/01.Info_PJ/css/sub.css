@@ -79,14 +79,14 @@
   height: 32px;
 }
 /* 2-3. 기사제목 */
-.article-title{
-    font-size: 33px;
+.article-title {
+  font-size: 33px;
 }
 /* 2-4. 기사사진  */
-.article-picture{
-    /* figure요소의 기본 마진,패딩 초기화 */
-    margin: 0;
-    padding: 0;
+.article-picture {
+  /* figure요소의 기본 마진,패딩 초기화 */
+  margin: 0;
+  padding: 0;
 }
 /* 2-5. 기사내용 */
 /* 2-6. 기자정보 */

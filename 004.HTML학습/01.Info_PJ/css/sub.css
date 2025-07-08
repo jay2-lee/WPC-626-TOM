@@ -87,6 +87,19 @@
 .article-title {
   font-size: 33px;
 }
+
+/* 스페셜박스 (추가정보박스) */
+.special-box h4{
+    /* 왼쪽 보더 */
+    border-left: 2px solid
+    /* 아랫쪽 간격 */
+    
+}
+
+
+
+
+
 /* 2-4. 기사사진  */
 .article-picture img {
   
